@@ -1,7 +1,7 @@
-**pycroscope**
+**pyscope**
 ==============
 
-Pycroscope is a collection of Python tools for
+Pyscope is a collection of Python tools for
 understanding Python scripts/programs. It will include
 tools for viewing code on the command line, creating
 markdown or html of Python code and more.
@@ -15,7 +15,7 @@ Usage
 
 It is intended to be a set of command line tools. They can be used as follows:
 
-    pycroscope [command] [--options] [arguments]
+    pyscope [command] [--options] [arguments]
 
 **Commands**
 
