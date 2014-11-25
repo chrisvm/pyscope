@@ -21,18 +21,18 @@ It is intended to be a set of command line tools. They can be used as follows:
 - html
 - markdown
 - cat
-- ls 
+- ls
 
 ls
 ==
 
-Using the ls command works just like ls, but with pretty printing. 
+Using the ls command works just like ls, but with pretty printing.
 
 Input:
 
-    pyscope ls 
+    pyscope ls
 
-Output: 
+Output:
 
     |- main.py
     |- src/
@@ -42,3 +42,10 @@ Output:
         |---|- conf.json
     |- LICENSE
     |- .gitignore
+
+html
+====
+
+Outputs styled html with the code and its comments, by its side. It's trying to
+replicate the documentation style found at the coffescript documentation
+(http://coffeescript.org/documentation/docs/lexer.html).
