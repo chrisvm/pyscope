@@ -21,3 +21,24 @@ It is intended to be a set of command line tools. They can be used as follows:
 - html
 - markdown
 - cat
+- ls 
+
+ls
+==
+
+Using the ls command works just like ls, but with pretty printing. 
+
+Input:
+
+    pyscope ls 
+
+Output: 
+
+    |- main.py
+    |- src/
+    |---|- lib.py
+        |- pyconst.py
+        |- module/
+        |---|- conf.json
+    |- LICENSE
+    |- .gitignore
