@@ -1,0 +1,8 @@
+{
+	"commands": {
+		"html": {
+			"filename": "html.py",
+			"help": "Parse the code and return html with the code "
+		}
+	}
+}
