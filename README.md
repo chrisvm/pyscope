@@ -1,10 +1,9 @@
 **pyscope**
 ==============
 
-Pyscope is a collection of Python tools for
-understanding Python scripts/programs. It will include
-tools for viewing code on the command line, creating
-markdown or html of Python code and more.
+Pyscope is a collection of Python tools for understanding Python
+scripts/programs. It will include tools for viewing code on the command line,
+creating markdown or html of Python code and more.
 
 This project is still on development and it's just
 starting.
