@@ -2,21 +2,15 @@
 import ast
 import argparse
 import json
-import constants
+import common
 import imp
 
-
-#TODO: add the implemented commands to the argumentparser
-
-def parse(filename):
-	with open(filename) as f:
-		return ast.parse(f.read())
 
 class CommandNotFound(Exception):
 	def __init__(self):
 		pass
 
-def parse_arguments():
+def run_command():
 	# create the argument parser
 	parser = argparse.ArgumentParser()
 
@@ -26,9 +20,8 @@ def parse_arguments():
 	# get the command
 	command = parser.parse_args().command
 
-	# parse the config
-	with open(constants.config) as f:
-		conf = json.loads(f.read())
+	# get the config 
+	conf = common.config()
 
 	# get the command
 	command_obj = None
@@ -48,7 +41,7 @@ def parse_arguments():
 		mod.main()
 
 def main():
-	parse_arguments()
+	run_command()
 
 if __name__ == '__main__':
 	main()

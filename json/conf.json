@@ -7,8 +7,7 @@
 
 		"ls": {
 			"filename": "modules/ls.py",
-			"help": "List directories in a pretty way, easier for understanding
-			large trees"
+			"help": "List directories in a pretty way, easier for understanding large trees"
 		}
 	}
 }

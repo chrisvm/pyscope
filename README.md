@@ -53,7 +53,7 @@ replicate the documentation style found at the coffescript documentation
 cat
 ===
 
-`cat`, just like `ls`, works by replicating some of the functionality of the original program but extending/tweaking it. My goal for cat is for it to do tha normal printing to stdout but with color, and maybe some other tweaks that pop up as I develop this project. 
+`cat`, just like `ls`, works by replicating some of the functionality of the original program but extending/tweaking it. My goal for cat is for it to do standard printing to stdout but with color, and maybe some other tweaks that pop up as I develop this project. 
 
 markdown
 ========
