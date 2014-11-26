@@ -1,8 +1,14 @@
 {
 	"commands": {
 		"html": {
-			"filename": "html.py",
+			"filename": "modules/html.py",
 			"help": "Parse the code and return html with the code "
+		},
+
+		"ls": {
+			"filename": "modules/ls.py",
+			"help": "List directories in a pretty way, easier for understanding
+			large trees"
 		}
 	}
 }

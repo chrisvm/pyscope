@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import ast
 import argparse
-import json 
+import json
 import constants
-import imp 
+import imp
 
 
 #TODO: add the implemented commands to the argumentparser
@@ -14,7 +14,7 @@ def parse(filename):
 
 class CommandNotFound(Exception):
 	def __init__(self):
-		pass 
+		pass
 
 def parse_arguments():
 	# create the argument parser
@@ -27,17 +27,17 @@ def parse_arguments():
 	command = parser.parse_args().command
 
 	# parse the config
-	with open(constants.config) as f: 	
+	with open(constants.config) as f:
 		conf = json.loads(f.read())
 
-	# get the command 
+	# get the command
 	command_obj = None
 	for comm in conf['commands']:
 		if comm == command:
 			command_obj = conf['commands'][comm]
-			break 
+			break
 
-	# if command not found, show error 
+	# if command not found, show error
 	if not command_obj:
 		raise CommandNotFound()
 	else:
@@ -48,7 +48,7 @@ def parse_arguments():
 		mod.main()
 
 def main():
-	print(parse_arguments())
+	parse_arguments()
 
 if __name__ == '__main__':
 	main()
