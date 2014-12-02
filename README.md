@@ -33,15 +33,16 @@ Input:
     pyscope ls
 
 Output:
-
-    |- main.py
-    |- src/
-    |---|- lib.py
-        |- pyconst.py
-        |- module/
-        |---|- conf.json
-    |- LICENSE
-    |- .gitignore
+    
+    /path/to/dir
+      ├─ main.py
+      ├─ src/
+      │   ├─ lib.py
+      │   ├─ pyconst.py
+      │   ├─ module/
+      │   │   ├─ conf.json
+      ├─ LICENSE
+      ├─ .gitignore
 
 html
 ====
